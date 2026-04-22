@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethio admin</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="/css/admin.css">
+</head>
+<body>
+    <section class="dashboard-container">
+        <div class="sidebar">
+            <div class="logo">
+                <img src="./images/logo.png" alt="logo">   
+                <span class="material-symbols-outlined">left_panel_close</span>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><span class="material-symbols-outlined">dashboard</span> <a href="#admin">Dashboard</a></li>
+                    <li><span class="material-symbols-outlined">wc</span> <a href="#students">Students</a></li>
+                    <li><span class="material-symbols-outlined">work</span> <a href="#employees">Employees</a></li>
+                    <li><span class="material-symbols-outlined">settings</span> Settings</li>
+                    <li><span class="material-symbols-outlined">logout</span> <a href="./html/login.html">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="maincontent">
+            <div class="dashboard" id="admin">
+            <div class="header">
+                <h1>Admin Dashboard</h1>
+            </div>
+            <div class="content">
+                 <div class="card">
+                    <div class="cardcontent">
+                        <span class="material-symbols-outlined">chart_data</span>
+                        <div class="carddata">
+                        <h3>Total Users</h3>
+                        <p>1,000</p>
+                        </div>
+                    </div>
+                    <div class="cardcontent">
+                        <span class="material-symbols-outlined">wc</span>
+                        <div class="carddata">
+                            <h3>Total Students</h3>
+                            <p>1,000</p>
+                        </div>
+                    </div>
+                    <div class="cardcontent">
+                        <span class="material-symbols-outlined">work</span>
+                        <div class="carddata">
+                            <h3>Total Employees</h3>
+                            <p>200</p>
+                        </div>
+                    </div>
+                    <div class="cardcontent">
+                        <span class="material-symbols-outlined">people</span>
+                        <div class="carddata">
+                            <h3>Active Users</h3>
+                            <p>500</p>
+                        </div>
+                    </div>
+                 </div>
+                 <div class="recent">
+                    <h3>Recent activity...</h3>
+                    <button>View All</button>
+                 </div>
+                 <div class="admintables">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Daily Views</th>
+                                <th>Comments</th>
+                                <th>Time</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1,000</td>
+                                <td>50</td>
+                                <td>2 hours ago</td>
+                            </tr>
+                            <tr>
+                                <td>1,200</td>
+                                <td>60</td>
+                                <td>5 hours ago</td>
+                            </tr>
+                            <tr>
+                                <td>900</td>
+                                <td>30</td>
+                                <td>1 day ago</td>
+                            </tr>
+                            <tr>
+                                <td>800</td>
+                                <td>20</td>
+                                <td>2 days ago</td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                 </div>
+            </div>
+        </div>
+
+
+        <div class="students" id="students">
+            <div class="header">
+                <h1>Students</h1>
+            </div>
+            <div class="content">
+                 <div class="card">
+                    <div class="cardcontent">
+                        <span class="material-symbols-outlined">chart_data</span>
+                        <div class="carddata">
+                        <h3>Total Students</h3>
+                        <p>3</p>
+                        </div>
+                    </div>
+                    <div class="cardcontent">
+                        <span class="material-symbols-outlined">wc</span>
+                        <div class="carddata">
+                            <h3>Verified Students</h3>
+                            <p>2</p>
+                        </div>
+                    </div>
+                    <div class="cardcontent">
+                        <span class="material-symbols-outlined">work</span>
+                        <div class="carddata">
+                            <h3>Unverified Students</h3>
+                            <p>1</p>
+                        </div>
+                    </div>
+                 </div>
+                 <div class="recent">
+                    <h3>Recent Students...</h3>
+                    <div class="search">
+                        <span class="material-symbols-outlined icon">search</span>
+                        <input type="text" placeholder="Search students...">
+                    </div>
+                 </div>
+                 <div class="studentstable">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Email</th>
+                                <th>Verified</th>
+                                <th>Enrollment Date</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Biruktawit Gutema</td>
+                                <td>biruktawit@example.com</td>
+                                <td>Yes</td>
+                                <td>2026-02-01</td>
+                            </tr>
+                            <tr>
+                                <td>Mersen Abebe</td>
+                                <td>mersen@example.com</td>
+                                <td>Yes</td>
+                                <td>2026-02-01</td>
+                            </tr>
+                            <tr>
+                                <td>Yohannes Tadesse</td>
+                                <td>yohannes@example.com</td>
+                                <td>No</td>
+                                <td>2026-02-01</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                 </div>
+            </div>
+        </div>
+        <div class="employees" id="employees">
+            <div class="header">
+                <h1>Employees</h1>
+            </div>
+            <div class="content">
+                 <div class="card">
+                    <div class="cardcontent">
+                        <span class="material-symbols-outlined">chart_data</span>
+                        <div class="carddata">
+                            <h3>Total Employees</h3>
+                            <p>4</p>
+                        </div>
+                    </div>
+                    <div class="cardcontent">
+                        <span class="material-symbols-outlined">wc</span>
+                        <div class="carddata">
+                            <h3>Verified Employees</h3>
+                            <p>4</p>
+                        </div>
+                    </div>
+                    <div class="cardcontent">
+                        <span class="material-symbols-outlined">work</span>
+                        <div class="carddata">
+                            <h3>Unverified Employees</h3>
+                            <p>0</p>
+                        </div>
+                    </div>
+                 </div>
+                 <div class="recent">
+                    <h3>Recent Employees</h3>
+                    <div class="search">
+                        <span class="material-symbols-outlined icon">search</span>
+                        <input type="text" placeholder="Search employees...">
+                    </div>
+                 </div>
+                 <div class="employeetables">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Company Email</th>
+                                <th>Status</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>ALX</td>
+                                <td>alx@example.com</td>
+                                <td>prove</td>
+                                <td class="check">
+                                    <button><span class="material-symbols-outlined edit">edit</span>Edit</button>
+                                    <button><span class="material-symbols-outlined delete">delete</span>Delete</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Ambo University</td>
+                                <td>ambou@example.com</td>
+                                <td>prove</td>
+                                <td class="check">
+                                    <button><span class="material-symbols-outlined edit">edit</span>Edit</button>
+                                    <button><span class="material-symbols-outlined delete">delete</span>Delete</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>NASA</td>
+                                <td>nasa@example.com</td>
+                                <td>progress...</td>
+                                <td class="check">
+                                    <button><span class="material-symbols-outlined edit">edit</span>Edit</button>
+                                    <button><span class="material-symbols-outlined delete">delete</span>Delete</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>SpaceX</td>
+                                <td>spacex@example.com</td>
+                                <td>prove</td>
+                                <td class="check">
+                                    <button><span class="material-symbols-outlined edit">edit</span>Edit</button>
+                                    <button><span class="material-symbols-outlined delete">delete</span>Delete</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                 </div>
+            </div>
+        </div>
+        </div>
+    </section>
+</body>
+</html>
